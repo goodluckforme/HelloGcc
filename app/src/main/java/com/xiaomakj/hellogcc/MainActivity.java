@@ -12,10 +12,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TestJniMethods methods = new TestJniMethods();
+        new MuchJNIShow().muchShow(19);
         //android.os.Debug.waitForDebugger();
         methods.test();
         setTitle(methods.nativeMethod());
-//        methods.newJniThreads(5);    //创建5个线程
+        methods.newJniThreads(5);    //创建5个线程
 //        Object obj = TestJniMethods.allocNativeBuffer(16L); //分配字节缓冲区
 //        methods.freeNativeBuffer(obj);  //释放字节缓冲区
     }
