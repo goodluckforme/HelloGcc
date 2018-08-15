@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3bd25f6e0da4fbb49ea8e6e579b18b1e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\b21bd3d78c1078348e703ff9cd5783f0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\08059712836670ab1df3aaf19254a743\AndroidManifest.xml:17:1-22:12
@@ -16,53 +16,61 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\4b53973328bee93b91d89f5e901f4ee4\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\240035b1d040ee2d7a8d53dd5cf7cc20\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\543ad197708acbfd931a9ffc972a71dd\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:3:5-36
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:4:5-36
 		INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml
 		INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:6:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\b21bd3d78c1078348e703ff9cd5783f0\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\b21bd3d78c1078348e703ff9cd5783f0\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:9:9-41
+	android:debuggable
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:12:9-34
+	android:testOnly
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:14:9-33
+	tools:ignore
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:15:9-42
 	android:roundIcon
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.xiaomakj.hellogcc.MainActivity
-ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\androidSpace\HelloGcc\app\src\main\AndroidManifest.xml
